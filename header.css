@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    height: 30px;    
+}
+.nav-list ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;   
+    gap: 70px;
+    margin-right: 50px;   
+}
+.nav-list ul li{
+    text-decoration: none;   
+} 
+.nav-list ul li a{
+  color:white;
+  text-decoration: none;  
+}
+.nav-list ul li a:hover{
+    color:orange;
+    transition: all 0.3s ease;
+}
